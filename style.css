@@ -2,15 +2,45 @@ body {
   font-family: 'Orbitron', sans-serif;
 }
 
-.queue-text {
-  color: red;
+.guest-display {
   font-size: 1.5rem;
-  text-shadow: 0 0 5px #f00
+
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 0 0 5px white;
+
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  margin: 6px;
+}
+.wrapper-text-employee {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper-text-employee span {
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 0 0 5px white;
+  width: 100%;
+
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  margin: 6px;
+}
+.wrapper-text-employee span:last-child {
+  text-align: right;
 }
 
 .employee-display {
-  padding: 6px;
-  background-color: #333;
-  border-radius: 8px;
-  border: 2px solid black;
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 0 0 20px black;
+
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  margin: 6px;
 }
